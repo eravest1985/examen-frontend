@@ -43,12 +43,6 @@ import { RouterLink, RouterView } from 'vue-router'
               Registro
             </RouterLink>
           </li>
-
-          <li class="nav-item">
-            <span class="nav-link enlace-desactivado">
-              En construcción
-            </span>
-          </li>
         </ul>
 
         <form class="d-flex ms-lg-auto buscador">
