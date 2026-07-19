@@ -44,22 +44,6 @@ import { RouterLink, RouterView } from 'vue-router'
             </RouterLink>
           </li>
         </ul>
-
-        <form class="d-flex ms-lg-auto buscador">
-          <input
-            class="form-control me-2"
-            type="search"
-            placeholder="Search"
-            aria-label="Search"
-          />
-
-          <button
-            class="btn btn-success"
-            type="button"
-          >
-            Búsqueda
-          </button>
-        </form>
       </div>
     </div>
   </nav>
@@ -108,16 +92,6 @@ body {
   font-weight: 600;
 }
 
-.enlace-desactivado {
-  color: rgba(255, 255, 255, 0.48) !important;
-  white-space: nowrap;
-  cursor: default;
-}
-
-.buscador {
-  width: 290px;
-}
-
 .contenido-principal {
   min-height: calc(100vh - 70px);
   background: linear-gradient(
@@ -135,12 +109,6 @@ body {
 
   .enlace-menu {
     margin: 2px 0;
-  }
-
-  .buscador {
-    width: 100%;
-    margin-top: 12px;
-    margin-bottom: 5px;
   }
 }
 </style>
